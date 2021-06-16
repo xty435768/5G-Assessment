@@ -5,9 +5,9 @@
       <navi-menu/>
     </el-col>
     <el-col :span="20">
-      <router-view v-slot="{ Component }" :key="new Date().getTime()">
+      <router-view v-slot="{ Component }" >
         <keep-alive>
-          <component :is="Component" />
+          <component :is="Component" v-bind:key="new Date().getTime()"/>
         </keep-alive>
       </router-view>
     </el-col>

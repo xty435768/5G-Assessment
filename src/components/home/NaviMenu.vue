@@ -9,7 +9,7 @@
       >
       <el-submenu v-for="(data,keyId) in brand_list" :key="keyId" :index="keyId+''">
         <template v-slot:title>
-          <span>{{data.brand_name}}</span>
+          <span><b>{{data.brand_name}}</b></span>
         </template>
         <el-menu-item v-for="(item, key) in data.type_list" :key="key" :index="keyId.toString() + '-' + key.toString()"
           @click="$router.push({path: '/detail', query: {brand_name: data.brand_name, type_name: item}})">
