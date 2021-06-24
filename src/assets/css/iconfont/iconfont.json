@@ -1,0 +1,65 @@
+{
+  "id": "2615111",
+  "name": "5g",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "736598",
+      "name": "camera",
+      "font_class": "camera",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "3786915",
+      "name": "屏幕显示",
+      "font_class": "yanjizhushou-shangchuan_pingmuxianshi",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "8163823",
+      "name": "分辨率",
+      "font_class": "fenbianshuai",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "1256479",
+      "name": "信号",
+      "font_class": "xinhao",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "9572494",
+      "name": "信号",
+      "font_class": "IOTtubiao_huabanfuben",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "515178",
+      "name": "电池_battery141",
+      "font_class": "dianchibattery141",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "554258",
+      "name": "电池",
+      "font_class": "iconset0250",
+      "unicode": "e695",
+      "unicode_decimal": 59029
+    },
+    {
+      "icon_id": "554260",
+      "name": "电池",
+      "font_class": "iconset0252",
+      "unicode": "e697",
+      "unicode_decimal": 59031
+    }
+  ]
+}
