@@ -23,6 +23,7 @@
 </template>
 
 <script>
+
 export default {
   name: 'NaviMenu',
   methods: {
@@ -46,6 +47,15 @@ export default {
         {brand_name: '华为', type_list: ['Mate40E', 'Mate40Pro5G']}
       ]
     }
+  },
+  mounted() {
+    this.brand_list = []
+    this.$axios.post('/overview/get_brands', '{}').then((response) => {
+      const res_dict = eval(response.data);
+      for (var key in res_dict) {
+        this.brand_list.push({brand_name: key, type_list: res_dict[key]})
+      }
+    })
   }
 }
 </script>
